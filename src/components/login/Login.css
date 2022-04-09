@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.login-container {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 5% 0;
+}
+form {
+  padding: 80px;
+  border: 1px solid gray;
+}
+.login-media {
+  margin-top: 30px;
+}
+.login-media ul {
+  display: flex;
+}
+.login-media ul li {
+  padding: 0 20px;
+}
+form .login-img i {
+  font-size: 75px;
+}
+#two {
+  padding: 10px;
+}
+#one {
+  padding: 10px;
+}

@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: url("../images/vectorbg.png");
+  font-size: 17px;
+}
+.btn {
+  background-color: gray;
+  display: inline-block;
+  padding: 15px;
+  border-radius: 25px;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+.hero {
+  background: url("../images/newsbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero .overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 9% 0;
+  /* background: rgba(0, 0, 0, 0.5); */
+  color: gray;
+}
+.hero .overlay h1 {
+  font-size: 46px;
+}
+
+/* welcome page */
+
+.col-welcome {
+  display: flex;
+}
+.col-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+}
+.col-2 {
+  padding: 20px;
+  border-right: 1px solid gray;
+}
+.col-3 {
+  padding-left: 5%;
+}
+/* welcome page */
+
+.col-img {
+  display: flex;
+}
+.col-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 10%;
+}
+.col-5 {
+  padding: 20px;
+  /* border-right: 1px solid gray; */
+}
+.col-6 {
+  padding-left: 5%;
+}
+.blue-link {
+  color: blue;
+}
+
+/* Objective */
+
+.col-objective {
+  background-color: #f7f7f7;
+}
+.col-7 {
+  padding: 5%;
+  display: flex;
+}
+.col-8 {
+  justify-content: center;
+  padding: 0 5%;
+}
+.col-8 h1 {
+  text-align: center;
+  text-transform: capitalize;
+}
+.col-9 ol li {
+  line-height: 30px;
+}
+.col-10 {
+  background-color: #f7f7f7;
+  display: flex;
+  text-align: center;
+}
+.col-11 {
+  padding: 5% 10%;
+}
+.col-12 h1 {
+  text-align: center;
+  text-transform: capitalize;
+}
+.col-13 p {
+  line-height: 30px;
+}
+@media (max-width: 768px) {
+  .hero {
+    width: 100%;
+  }
+  .container {
+    padding: 10%;
+  }
+  .col-welcome {
+    width: 100%;
+  }
+  .col-1 {
+    width: 100%;
+    display: block;
+  }
+  .col-2 {
+    border-right: none;
+    text-align: center;
+  }
+  .col-3 {
+    width: 100%;
+    padding: 10% 0;
+    text-align: center;
+  }
+  .col-objective {
+    width: 100%;
+  }
+
+  /* Article */
+
+  .col-img {
+    width: 100%;
+  }
+  .col-4 {
+    /* padding: 10% 0; */
+    display: block;
+  }
+  .col-5 {
+    padding: 1% 0;
+  }
+  .col-6 {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  /* About page */
+
+  .col-10 {
+    width: 100%;
+  }
+}
